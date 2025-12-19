@@ -4,8 +4,9 @@
   "description": "Learn to build full-stack web applications using MongoDB, Express.js, React, and Node.js, AKA the MERN stack.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./backend/server.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NirmalFdo183/product-store.git"
@@ -21,5 +22,8 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
